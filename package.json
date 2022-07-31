@@ -1,0 +1,24 @@
+{
+  "name": "typescript-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.ts",
+  "scripts": {
+    "start": "ts-node ./src/main.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.6.3",
+    "ts-node": "^10.9.1",
+    "ts-standard": "^11.0.0",
+    "typescript": "^4.7.4"
+  },
+  "standard": {
+    "ignore": [
+      "/out/*"
+    ]
+  }
+}
