@@ -1,8 +1,8 @@
 import sayHello from './sayHello'
 
-function main (args: String[]): void {
-  console.log(args)
-  sayHello('Xavi')
+function main (args: string[]): void {
+  const name: string = args[2] ?? 'world'
+  sayHello(name)
 }
 
 main(process.argv)
